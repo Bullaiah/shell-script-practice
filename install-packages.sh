@@ -31,6 +31,6 @@ VALIDATE() {
 
 yum install nodejs -y &>>$LOGFILE
 
-VALIDATE $? "Installing NodeJs
+VALIDATE $? "Installing NodeJs"
 
 
